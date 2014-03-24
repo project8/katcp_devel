@@ -3,5 +3,5 @@
 # Created: March 24, 2014
 
 add_executable( k7-delay delay.c )
-target_link_libraries( k7-delay ${KATCP_LIBRARIES} )
+target_link_libraries( k7-delay ${KATCP_LIBRARIES} m )
 pbuilder_install_executables( k7-delay )
