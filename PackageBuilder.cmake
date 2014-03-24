@@ -43,7 +43,7 @@ set (BIN_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/${BIN_INSTALL_SUBDIR}")
 set (CONFIG_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/${CONFIG_INSTALL_SUBDIR}")
 
 # build shared libraries
-set (BUILD_SHARED_LIBS ON)
+set (BUILD_SHARED_LIBS OFF)
 
 # global property to hold the names of katydid library targets
 set_property (GLOBAL PROPERTY ${PROJECT_NAME}_LIBRARIES)
