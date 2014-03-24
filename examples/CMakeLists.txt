@@ -1,4 +1,4 @@
-# CMakeLists.txt for examples
+# CMakeLists.txt for katcp_devel/examples
 # Author: N. Oblath
 # Created: March 24, 2014
 

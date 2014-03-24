@@ -1,4 +1,4 @@
-# CMakeLists.txt for scripts
+# CMakeLists.txt for katcp_devel/scripts
 # Author: N. Oblath
 # Created: March 24, 2014
 

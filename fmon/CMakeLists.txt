@@ -1,4 +1,4 @@
-# CMakeLists.txt for fmon
+# CMakeLists.txt for katcp_devel/fmon
 # Author: N. Oblath
 # Created: March 24, 2014
 

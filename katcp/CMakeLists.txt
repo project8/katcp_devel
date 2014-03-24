@@ -49,7 +49,7 @@ set( SOURCE_FILES
 
 
 add_library( katcp ${SOURCE_FILES} )
-target_link_library( katcp )
+target_link_libraries( katcp )
 
 pbuilder_install_libraries( katcp )
 pbuilder_install_headers( ${HEADER_FILES} )

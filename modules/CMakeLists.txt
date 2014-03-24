@@ -1,11 +1,13 @@
-# CMakeLists.txt for modules
+# CMakeLists.txt for katcp_devel/modules
 # Author: N. Oblath
 # Created: March 24, 2014
 
+include_directories( ${PROJECT_SOURCE_DIR}/kcs )
+
 set( KSC_SOURCE_FILES
-    ${PROJECT_SOURCE_DIR}/ksc/statemachine.c 
-    ${PROJECT_SOURCE_DIR}/ksc/actor.c 
-    ${PROJECT_SOURCE_DIR}/ksc/statemachine_base.c
+    ${PROJECT_SOURCE_DIR}/kcs/statemachine.c 
+    ${PROJECT_SOURCE_DIR}/kcs/actor.c 
+    ${PROJECT_SOURCE_DIR}/kcs/statemachine_base.c
 )
 
 set( CMAKE_C_FLAGS -fPIC )

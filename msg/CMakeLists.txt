@@ -1,4 +1,4 @@
-# CMakeLists.txt for msg
+# CMakeLists.txt for katcp_devel/msg
 # Author: N. Oblath
 # Created: March 24, 2014
 

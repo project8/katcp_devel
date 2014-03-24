@@ -1,4 +1,4 @@
-# CMakeLists.txt for sq
+# CMakeLists.txt for katcp_devel/sq
 # Author: N. Oblath
 # Created: March 24, 2014
 

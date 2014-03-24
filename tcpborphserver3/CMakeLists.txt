@@ -1,4 +1,4 @@
-# CMakeLists.txt for tcpborphserver3
+# CMakeLists.txt for katcp_devel/tcpborphserver3
 # Author: N. Oblath
 # Created: March 24, 2014
 

@@ -1,4 +1,4 @@
-# CMakeLists.txt for con
+# CMakeLists.txt for katcp_devel/con
 # Author: N. Oblath
 # Created: March 24, 2014
 

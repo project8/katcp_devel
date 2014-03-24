@@ -16,17 +16,19 @@ include( PackageBuilder )
 # Set the version and associated variables
 pbuilder_prepare_project( 1 0 0 )
 
-// 
+# 
 include( katcp.cmake )
 
-// flag to enable building of the test executables
+# flag to enable building of the test executables
 option (KATCP_ENABLE_TESTING "Build the test executables" OFF)
 
+# universal include directory
+include_directories( ${PROJECT_SOURCE_DIR}/katcp )
 
-// library
+# library
 add_subdirectory( katcp )
 
-// executables
+# executables
 add_subdirectory( kcs )                
 add_subdirectory( cmd )
 add_subdirectory( examples )
@@ -45,6 +47,6 @@ add_subdirectory( xport )
 add_subdirectory( con )
 add_subdirectory( dmon )
 
-// misc
+# misc
 add_subdirectory( scripts )
 add_subdirectory( misc )

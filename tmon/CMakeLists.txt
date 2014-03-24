@@ -1,4 +1,4 @@
-# CMakeLists.txt for tmon
+# CMakeLists.txt for katcp_devel/tmon
 # Author: N. Oblath
 # Created: March 24, 2014
 

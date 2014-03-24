@@ -1,4 +1,4 @@
-# CMakeLists.txt for kcs
+# CMakeLists.txt for katcp_deve/kcs
 # Author: N. Oblath
 # Created: March 24, 2014
 

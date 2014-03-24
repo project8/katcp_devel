@@ -1,4 +1,4 @@
-# CMakeLists.txt for log
+# CMakeLists.txt for katcp_devel/log
 # Author: N. Oblath
 # Created: March 24, 2014
 

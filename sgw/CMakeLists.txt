@@ -1,4 +1,4 @@
-# CMakeLists.txt for sgw
+# CMakeLists.txt for katcp_devel/sgw
 # Author: N. Oblath
 # Created: March 24, 2014
 

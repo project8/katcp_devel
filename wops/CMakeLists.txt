@@ -1,4 +1,4 @@
-# CMakeLists.txt for wops
+# CMakeLists.txt for katcp_devel/wops
 # Author: N. Oblath
 # Created: March 24, 2014
 

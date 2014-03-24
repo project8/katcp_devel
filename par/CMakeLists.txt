@@ -1,4 +1,4 @@
-# CMakeLists.txt for par
+# CMakeLists.txt for katcp_devel/par
 # Author: N. Oblath
 # Created: March 24, 2014
 

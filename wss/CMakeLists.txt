@@ -1,4 +1,4 @@
-# CMakeLists.txt for wss
+# CMakeLists.txt for katcp_devel/wss
 # Author: N. Oblath
 # Created: March 24, 2014
 

@@ -1,4 +1,4 @@
-# CMakeLists.txt for xport
+# CMakeLists.txt for katcp_devel/xport
 # Author: N. Oblath
 # Created: March 24, 2014
 

@@ -1,4 +1,4 @@
-# CMakeLists.txt for dmon
+# CMakeLists.txt for katcp_devel/dmon
 # Author: N. Oblath
 # Created: March 24, 2014
 

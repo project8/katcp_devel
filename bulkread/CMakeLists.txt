@@ -1,4 +1,4 @@
-# CMakeLists.txt for bulkread
+# CMakeLists.txt for katcp_devel/bulkread
 # Author: N. Oblath
 # Created: March 24, 2014
 

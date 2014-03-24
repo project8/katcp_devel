@@ -1,4 +1,4 @@
-# CMakeLists.txt for delay
+# CMakeLists.txt for katcp_devel/delay
 # Author: N. Oblath
 # Created: March 24, 2014
 
