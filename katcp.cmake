@@ -2,7 +2,7 @@
 # Author: N. Oblath
 # Craeted: March 24, 2014
 
-set( CMAKE_C_FLAGS "-Wall -fPIC" )
+set( KATCP_ETC_DIR ${CMAKE_INSTALL_PREFIX}/etc CACHE PATH "/etc install directory (independent of CMAKE_INSTALL_PREFIX)" )
 
 add_definitions( 
     # where the C implementation has diverged from the katcp standard,

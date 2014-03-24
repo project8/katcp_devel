@@ -24,6 +24,13 @@
 #include <katcp.h>
 #include <katpriv.h>
 
+// mac os x does not have MSG_NOSIGNAL; use SO_NOSIGPIPE instead
+#if defined(__APPLE__) || defined(__MACH__)
+#ifndef MSG_NOSIGNAL
+#define MSG_NOSIGNAL SO_NOSIGPIPE
+#endif
+#endif
+
 #define TMON_POLL_INTERVAL        1000    /* default poll interval */
 #define TMON_POLL_MIN               50    /* minimum (in ms) between a recv followed by another send */
 

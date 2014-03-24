@@ -24,6 +24,7 @@
 #include "netc.h"
 #include "avltree.h"
 
+#include "tdestroy.h"
 
 void print_string_type_katcp(struct katcp_dispatch *d, char *key, void *data)
 {

@@ -38,7 +38,6 @@ add_subdirectory( tmon )
 add_subdirectory( log )
 add_subdirectory( fmon )
 add_subdirectory( modules )
-add_subdirectory( tcpborphserver3 )
 add_subdirectory( msg )
 add_subdirectory( delay )
 add_subdirectory( par )
@@ -46,6 +45,10 @@ add_subdirectory( sgw )
 add_subdirectory( xport )
 add_subdirectory( con )
 add_subdirectory( dmon )
+
+if( NOT APPLE )
+    add_subdirectory( tcpborphserver3 )
+endif( NOT APPLE )
 
 # misc
 add_subdirectory( scripts )

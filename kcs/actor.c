@@ -22,6 +22,8 @@
 
 #include "kcs.h"
 
+#include "tdestroy.h"
+
 /*********************************[actor]****************************************/
 
 struct katcp_actor *create_actor_type_katcp(struct katcp_dispatch *d, char *str, struct katcp_job *j, struct katcp_notice *n, void *data, char *datatype)

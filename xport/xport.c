@@ -31,6 +31,13 @@
 #include "katcl.h"
 #include "katpriv.h"
 
+// mac os x does not have MSG_NOSIGNAL; use SO_NOSIGPIPE instead
+#if defined(__APPLE__) || defined(__MACH__)
+#ifndef MSG_NOSIGNAL
+#define MSG_NOSIGNAL SO_NOSIGPIPE
+#endif
+#endif
+
 #define ITEM_STAY              0x0
 #define ITEM_OK                0x1
 #define ITEM_FAIL              0x2

@@ -9,6 +9,7 @@ set( HEADER_FILES
     fork-parent.h 
     avltree.h 
     netc.h
+    tdestroy.h
 )
 
 set( SOURCE_FILES
@@ -45,7 +46,20 @@ set( SOURCE_FILES
     bytebit.c 
     endpoint.c 
     generic-queue.c
+    tdestroy.c
 )
+
+if( APPLE )
+set( HEADER_FILES
+    ${HEADER_FILES}
+    tdestroy.h
+)
+
+set( SOURCE_FILES
+    ${SOURCE_FILES}
+    tdestroy.c
+)
+endif( APPLE )
 
 
 add_library( katcp ${SOURCE_FILES} )

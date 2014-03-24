@@ -16,8 +16,7 @@
 CMakeCache.txt
 CMakeFiles/
 Makefile
-*build/
-cbuild*/
+build*/
 cmake_install.cmake
 *Dict.h
 *Dict.cxx
