@@ -53,3 +53,6 @@ endif( NOT APPLE )
 # misc
 add_subdirectory( scripts )
 add_subdirectory( misc )
+
+# for nested builds
+pbuilder_variables_for_parent()
