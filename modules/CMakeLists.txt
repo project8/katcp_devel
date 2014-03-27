@@ -4,6 +4,8 @@
 
 #set (BUILD_SHARED_LIBS ON)
 
+pbuilder_add_ext_libraries( dl )
+
 include_directories( ${PROJECT_SOURCE_DIR}/kcs )
 
 set( KSC_SOURCE_FILES
